@@ -11,8 +11,7 @@
     <script>
     // Create class it details
         class Person {
-            constructor(name, id, age, location, mobile)
-            {
+            constructor(name, id, age, location, mobile){
                 this.name = name;
                 this.id = id;
                 this.age = age;
@@ -22,11 +21,9 @@
         }
         let details = new Person("Elavarasan", 62812, 25, "GHSS", 7810056325); 
         console.log(details);
-
     // Create  class calculate uber price
         class Uber {
-        constructor(normalRent, distance, waitingCharge, traffic)
-        {
+        constructor(normalRent, distance, waitingCharge, traffic){
             this.normalRent = normalRent;
             this.distance = distance;
             this.waitingCharge = waitingCharge;
@@ -35,9 +32,6 @@
        }   
         let price = new Uber(15, 5, 5, 1);
         console.log(price);
-    
-
-
-    </script>
+      </script>
 </body>
 </html>
